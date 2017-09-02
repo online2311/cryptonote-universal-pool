@@ -121,7 +121,7 @@ sudo apt-get install git redis-server libboost1.55-all-dev nodejs-dev nodejs-leg
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/fancoder/cryptonote-universal-pool.git pool
+git clone https://github.com/online2311/cryptonote-universal-pool.git pool
 cd pool
 npm update
 ```
@@ -132,13 +132,13 @@ npm update
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "ducknote",
+"coin": "monero",
 
 /* Used for front-end display */
-"symbol": "XDN",
+"symbol": "XMR",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinUnits": 100000000,
+"coinUnits": 1000000000000,
 
 /* Coin network time to mine one block, see DIFFICULTY_TARGET constant in DAEMON_CODE/src/cryptonote_config.h */
 "coinDifficultyTarget": 240,
@@ -417,7 +417,7 @@ var poolHost = "poolhost.com";
 var irc = "irc.freenode.net/#ducknote";
 
 /* Contact email address. */
-var email = "support@poolhost.com";
+var email = "13821320100@Outlook.com";
 
 /* Market stat display params from https://www.cryptonator.com/widget */
 var cryptonatorWidget = ["XDN-BTC", "XDN-USD", "XDN-EUR"];
