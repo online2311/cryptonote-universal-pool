@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 
-    <title>Cryptonote Mining Pool</title>
+    <title>门罗币矿池&XMRPool</title>
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+    <link href="//lib.baomitu.com/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//lib.baomitu.com/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <!-- <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css"> -->
 
     <script src="config.js"></script>
     <script src="custom.js"></script>
+    <link href="custom.css" rel="stylesheet">
 
     <style>
         #coinName{
             text-transform: capitalize;
         }
         body {
-            padding-top: 65px;
+            padding-top: 90px;
             padding-bottom: 80px;
             overflow-y: scroll;
         }
@@ -78,7 +78,6 @@
         }
 
     </style>
-    
     <link href="custom.css" rel="stylesheet">
 
 </head>
@@ -320,33 +319,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><span id="coinName"></span> Mining Pool</a>
+            <a class="navbar-brand"></span>门罗币矿池&XMRPool</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
 
                 <li class="active"><a class="hot_link" data-page="home.html" href="#">
-                    <i class="fa fa-home"></i> Home
+                    <i class="fa fa-home"></i> 首页
                 </a></li>
 
                 <li><a class="hot_link" data-page="getting_started.html" href="#getting_started">
-                    <i class="fa fa-rocket"></i> Getting Started
+                    <i class="fa fa-rocket"></i> 开始挖矿
                 </a></li>
 
                 <li><a class="hot_link" data-page="pool_blocks.html" href="#pool_blocks">
-                    <i class="fa fa-cubes"></i> Pool Blocks
+                    <i class="fa fa-cubes"></i> 矿池爆块
                 </a></li>
 
                 <li><a class="hot_link" data-page="payments.html" href="#payments">
-                    <i class="fa fa-paper-plane-o"></i> Payments
+                    <i class="fa fa-paper-plane-o"></i> 支付记录
                 </a></li>
 
                 <li><a class="hot_link" data-page="support.html" href="#support">
-                    <i class="fa fa-comments"></i> Support
+                    <i class="fa fa-comments"></i> 矿池信息
                 </a></li>
 
             </ul>
-            <div id="stats_updated">Stats Updated &nbsp;<i class="fa fa-bolt"></i></div>
+            <div id="stats_updated">状态刷新中 &nbsp;<i class="fa fa-bolt"></i></div>
         </div>
 
     </div>
@@ -362,9 +361,9 @@
 
 <footer>
     <div class="text-muted">
-        Powered by <a target="_blank" href="//cryptonotemining.org"><i class="fa fa-github"></i> cryptonote-universal-pool</a>
+        Powered by <a target="_blank" href="//github.com/zone117x/node-cryptonote-pool"><i class="fa fa-github"></i> node-cryptonote-pool</a>
         <span id="poolVersion"></span>
-        open sourced under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a>
+        created by Matthew Little & open sourced under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a>
     </div>
 </footer>
 
