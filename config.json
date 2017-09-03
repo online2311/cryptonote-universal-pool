@@ -27,23 +27,23 @@
             {
                 "port": 3333,
                 "difficulty": 100,
-                "desc": "Low end hardware"
+                "desc": "单机算力<100H/s"
             },
             {
                 "port": 5555,
-                "difficulty": 2000,
-                "desc": "Mid range hardware"
+                "difficulty": 300,
+                "desc": "单机算力<300H/s"
             },
             {
                 "port": 7777,
-                "difficulty": 10000,
-                "desc": "High end hardware"
+                "difficulty": 500,
+                "desc": "单机算力:<500H/s"
             },
             {
                 "port": 8888,
-                "difficulty": 10000,
-                "desc": "Hidden port",
-                "hidden": true
+                "difficulty": 1000,
+                "desc": "单机算力:>1000H/s",
+		"hidden": false
             }
         ],
         "varDiff": {
