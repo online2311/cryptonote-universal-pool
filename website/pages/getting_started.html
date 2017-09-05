@@ -47,18 +47,44 @@
     }
 </style>
 
-
-<h3>Connection Details</h3>
-<div class="stats">
-    <div><i class="fa fa-cloud"></i> Mining Pool Address: <span id="miningPoolHost"></span></div>
+<h3>重要信息.请仔细阅读.</h3>
+<div class="paragraph">
+    <p>当矿池爆块以后需要2小时才能支付，在这期间您将无法看到余额。 NodePool暂时只是小规模的矿池，因此可能需要一些时间才能爆块.</p>
+    <p>在大型矿池您会早一些看到收益因为他们会更快的爆块，但是您得到奖励会较小。从长远来看您的收益都是相似的，小型矿池收益相对会高一些.</p>
+    <p>可靠性和低延迟是您选择矿池时应考虑的重要事项。可以避免因为网络延迟引起的无效提交份额.</p>
 </div>
 
-<h4>Mining Ports</h4>
+<hr>
+
+<h3>矿池链接信息</h3>
+<div class="stats">
+    <div><i class="fa fa-cloud"></i> 矿池链接地址: <span id="miningPoolHost"></span></div>
+</div>
+<div class="paragraph">
+    <p>难度会根据您的算力自动调整。您选择的端口将决定起始难度，并从那里开始.</p>
+</div>
+<br/>
+<h4 style="font-weight: bold;">自定义难度</h4>
+<div class="paragraph">
+    <p>您可以在软件中矿池地址上使用"@"进行设置自定义难度。 最小允许的自定义难度为50000.</p>
+    <p>例如: <code>WALLET_ADDRESS@custom_diff</code> 或者 <code>WALLET_ADDRESS.payment_id@custom_diff</code> 使用Payment ID的方式</p>
+</div>
+
+<hr>
+
+<h3>直接付款至交易所[不推荐]</h3>
+<div class="paragraph">
+    <p>如果您使用必须使用"payment ID" 示例：<code>WALLET_ADDRESS.payment_id</code> 设置挖矿软件中的地址以及在主页上查看您的统计信息。</p>
+    <p>如果您希望使用交易所钱包地址，则必须填写"payment ID" 。不推荐这样的方法，因为有一定几率您可能无法收到您的XMR。示例：<code>EXCHANGE_ADDRESS.your_payment_id</code></p>
+     <p style="font-weight: bold;">直接使用交易所钱包地址， 需要满足<span style="color: #ff0000">余额为5XMR&每天支付一次</span>.如果采用钱包地址满足0.1 XMR立即支付</p>
+   </div>
+<hr>
+<h4>端口信息</h4>
 <div id="miningPorts" class="row">
     <div class="stats">
-        <div><i class="fa fa-tachometer"></i> Port: <span class="miningPort"></span></div>
-        <div><i class="fa fa-unlock-alt"></i> Starting Difficulty: <span class="miningPortDiff"></span></div>
-        <div><i class="fa fa-question"></i> Description: <span class="miningPortDesc"></span></div>
+        <div><i class="fa fa-tachometer"></i> 端口: <span class="miningPort"></span></div>
+        <div><i class="fa fa-unlock-alt"></i>起始难度: <span class="miningPortDiff"></span></div>
+        <div><i class="fa fa-question"></i> 说明: <span class="miningPortDesc"></span></div>
     </div>
 </div>
 
