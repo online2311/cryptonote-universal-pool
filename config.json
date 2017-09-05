@@ -20,30 +20,30 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "42vYTZD1qcodVTYs7QrvZDANzwrjvbCziNj7bK2kj11NPqv8ZzYqVxtFFNhU1wZS1s5anJMs76Y5pRKqs4dAxP2225y4oj4",
+        "poolAddress": "44Jh1NCALZcLM5dwabKu5J4sE9jxxtjxi9RkYRqBJCyZVTmuhiGDmgHgtMteYmdYUpd9zsgmn11DY7rKFs2pc15DTC1tJcW",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 100,
-                "desc": "单机算力<100H/s"
+                "difficulty": 5000,
+                "desc": "Low & mid range CPU"
             },
             {
                 "port": 5555,
-                "difficulty": 300,
-                "desc": "单机算力<300H/s"
+                "difficulty": 15000,
+                "desc": "High end CPU/GPU"
             },
             {
                 "port": 7777,
-                "difficulty": 500,
-                "desc": "单机算力:<500H/s"
+                "difficulty": 25000,
+                "desc": "GPU rigs"
             },
             {
                 "port": 8888,
-                "difficulty": 1000,
-                "desc": "单机算力:>1000H/s",
-		"hidden": false
+                "difficulty": 10000,
+                "desc": "Hidden port",
+                "hidden": true
             }
         ],
         "varDiff": {
