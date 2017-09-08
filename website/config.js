@@ -1,8 +1,8 @@
-var api = "http://api.nodepool.cn:8117";
+var api = "https://nodepool.cn/api";
 
 var poolHost = "get.nodepool.cn";
 
-var irc = "irc.freenode.net/#hiive";
+var irc = "irc.freenode.net/#nodepool";
 
 var email = "support@nodepool.cn";
 
