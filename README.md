@@ -417,7 +417,7 @@ var poolHost = "poolhost.com";
 var irc = "irc.freenode.net/#ducknote";
 
 /* Contact email address. */
-var email = "13821320100@Outlook.com";
+var email = " ";
 
 /* Market stat display params from https://www.cryptonator.com/widget */
 var cryptonatorWidget = ["XDN-BTC", "XDN-USD", "XDN-EUR"];
